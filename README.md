@@ -60,6 +60,20 @@ The lowest performing loan group was C&I loans with an 83.67% Overall Accuracy S
 
 It is noted that the different loan groups contain many of the same variables however some unique variables. The group design may have had an affect on the the accuracy scores as well as the different models.
 
+8) Further Considerations with the Data for Future Studies: Several concepts could be tested with the data and existing models to further explore the relationship between the nature of loan charge offs and the independent variables:
+
+A. Time elements could be tested with the existing data set and run through all the models used in Project 4: Time lags and Time deltas. Time lags would effectively ‘lag’ one or more variables by a period of months. For example, loan charge offs may lag between loan delinquencies and a rising unemployment rate. Time deltas would calculate the difference between two different points in time for one or more variables. This could reveal if the change in a variable’s value had an affect on loan charge offs. 
+
+B. Other considerations for further studies could be expanding the existing data set where it is possible with the existing variables. For example, what would the accuracy scores look like scaled up 10 times, or 100 times? There may be limits to scaling up economic variables, however variables such as delinquency rates could hypothetically be measured on a weekly or even daily basis, thus providing a much larger dataset. 
+
+C. The selection of independent variables could be expanded, changed and reconfigured. For example, further studies on variables and conditions related to C&I loan charge offs could be explored. 
+
+9) Finally, the Correlation Matrix below shows that the majority of all 4 loan groups’ delinquencies, charge offs and the unemployment rate are positively correlated.  This suggests that these independent variables may have relationships across the four loan groups.
+
+![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/8a3dd6c0-7aca-4e53-919c-760a17d81962)
+
+
+
 
 
 
