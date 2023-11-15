@@ -51,7 +51,7 @@ The accuracy scores varied from loan group to loan group. Credit cards had the h
 
 7) Project Summary Loan Results:
 
-![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/5dab19a8-5579-4dd1-82c9-3091aeab9b26)
+
 
 Random Forest with actual numerical values (as opposed to dummies) produced the highest average accuracy score of 93.91%. The lowest average accuracy score was the Deep Learning model that used dummy values at 27.55%. Next to the Deep Learning using dummy data, the Logistic Regression model produced the lowest average accuracy score of 80.86%. Compared to Random Forests model (Actual), it appears that Logistic Regressions was less accurate at predicting outcomes. 
 
@@ -60,6 +60,13 @@ The lowest performing loan group was C&I loans with an 83.67% Overall Accuracy S
 
 It is noted that the different loan groups contain many of the same variables however some unique variables. The group design may have had an affect on the the accuracy scores as well as the different models.
 
-
+Model Type	Decision Tree (Actual)	Random_Forest (dummies)	Random_Forest (Actual)	Logistic Regression	Deep Learning (actual)		Deep Learning (dummies)		
+Loan Group	Accuracy Score	Accuracy Score	Accuracy Score	Accuracy Score	Accuracy Score	Loss Rate	Accuracy Score	Loss Rate	Overall Accruacy Score*
+Credit cards	93.88%	88.75%	94.90%	80.61%	90.82%	30.67%	25.51%	-6.7051e	89.79%
+Mortgage loans	91.84%	94.90%	93.88%	86.73%	88.78%	37.52%	32.65%	-8.9701e	91.23%
+C&I loans	83.67%	90.82%	92.86%	74.48%	76.53%	69.54%	25.51%	-5.8487e	83.67%
+CRE loans	88.88%	95.18%	93.98%	81.63%	83.67%	42.86%	26.53%	-1.0892e	88.67%
+Average:	89.57%	92.41%	93.91%	80.86%	84.95%	45.15%	27.55%	N/A	
+	*Note: excludes deep learning dummies approach accuracy score. 								![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/7da327ea-9d96-464a-b279-2aa8af0bd3a7)
 
 
