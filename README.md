@@ -43,11 +43,23 @@ Along the right branch of the tree, if Household-Debt-to-Income Ratio is above 1
 
 This branch describes the relationship between several variables in the model: a higher Fed Funds rate could make the Household debt to Income ratio higher indicating a higher load of household debt. This increased debt load could strain household income and increase the risk of delinquent loan payments. In turn, a higher unemployment rate could cause the risk of delinquent loan payments to go up as there are less jobs available to earn income which is needed to pay make loan payments. Finally, the Consumer Confidence index could be a leading or lagging indicator for increased credit card charge off risk in the model. In the past, Consumer Confidence has dipped before the onset of an economic recession. 
 
-Neural Networks and Deep Learning: Deep Learning models were made for all 4 Loan Groups with the same model design. The models used actual numerical data as opposed to transformed dummy data.For example, the credit cards group reported the following design characteristics: 4 layers of hidden nodes with 60 nodes for the first 3 layers and 40 nodes for the 4th layer; The activation type for the 4 hidden layers was ‘relu’; The activation type for the final layer was ‘softmax’ amd there were 200 epochs for the calculation.
+6) Neural Networks and Deep Learning: Deep Learning models were made for all 4 Loan Groups with the same model design. The models used actual numerical data as opposed to transformed dummy data.For example, the credit cards group reported the following design characteristics: 4 layers of hidden nodes with 60 nodes for the first 3 layers and 40 nodes for the 4th layer; The activation type for the 4 hidden layers was ‘relu’; The activation type for the final layer was ‘softmax’ amd there were 200 epochs for the calculation.
 
 ![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/4fffc41e-8b54-4d4e-8c9d-97b13c259a52)
 
 The accuracy scores varied from loan group to loan group. Credit cards had the highest accuracy score at 90.82% while the C&I group had the lowest at 76.53%. Overall, it appears that the Deep learning model did better with Consumer type loans (Credit Cards and Mortgages) versus Commercial type loans (C&I loans and CRE loans). 
+
+7) Project Summary Loan Results:
+
+![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/5dab19a8-5579-4dd1-82c9-3091aeab9b26)
+
+Random Forest with actual numerical values (as opposed to dummies) produced the highest average accuracy score of 93.91%. The lowest average accuracy score was the Deep Learning model that used dummy values at 27.55%. Next to the Deep Learning using dummy data, the Logistic Regression model produced the lowest average accuracy score of 80.86%. Compared to Random Forests model (Actual), it appears that Logistic Regressions was less accurate at predicting outcomes. 
+
+The Overall Accuracy Score indicated that the Mortgage loans group was the highest at 91.63% and closely followed by the Credit cards group at 89.79%. Overall, the Consumer loans (credit cards and mortgages) performed better than the business loans (C&I and CRE) which appears to be influenced by the Deep Learning model accuracy scores. 
+The lowest performing loan group was C&I loans with an 83.67% Overall Accuracy Score. This appears to be ‘across the board’ in terms of the model types, and in particular the Logistic Regression model and Deep Learning with actual numerical values model. 
+
+It is noted that the different loan groups contain many of the same variables however some unique variables. The group design may have had an affect on the the accuracy scores as well as the different models.
+
 
 
 
