@@ -28,7 +28,7 @@ All four loan groups demonstrated positive correlations between delinquencies an
 
 ![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/f004e2aa-7f6e-45c0-bfa9-ff6b3c22c1b0)
 
-5) Decision Trees and Random Forest Trees were amongst some of the highest scoring machine learning models tested in Project 4. For example, the credit card Decision Tree shown here reported a 93.9% accuracy score. Consider the following connection between the variables shown in the Tree:
+5) Decision Trees and Random Forest Trees were amongst some of the highest scoring machine learning models tested in Project 4. To begin, our group converted the independent variables in the loan groups to dummy variables and run the Random Forest models. This approach yielded good accuracy results, the however, as an example, the accuracy score for credit cards using dummy variables was 88.75% as compared to credit card Random Forest that used the actual numerical values which reported a 94.9% accuracy score. Consider the following connection between the variables shown in the Tree:
 
 ![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/12b3d01e-591b-4b73-9015-7ece0f9515eb)
 
