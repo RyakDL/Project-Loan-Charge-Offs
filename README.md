@@ -38,7 +38,7 @@ This branch describes the relationship between several variables in the model: a
 
 6) Neural Networks and Deep Learning: Deep Learning models were made for all 4 Loan Groups with the same model design. We first modeled transformed dummy data and later got much higher accuracy scores with actual numerical data. For example, the credit cards group reported the following design characteristics: 4 layers of hidden nodes with 60 nodes for the first 3 layers and 40 nodes for the 4th layer; The activation type for the 4 hidden layers was ‘relu’; The activation type for the final layer was ‘softmax’ amd there were 200 epochs for the calculation.
 
-![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/4fffc41e-8b54-4d4e-8c9d-97b13c259a52)
+![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/6fd8a254-a171-4941-9396-894afeceb8ae)
 
 The accuracy scores varied from loan group to loan group. Credit cards had the highest accuracy score at 90.82% while the C&I group had the lowest at 76.53%. Overall, it appears that the Deep learning model did better with Consumer type loans (Credit Cards and Mortgages) versus Commercial type loans (C&I loans and CRE loans). 
 
