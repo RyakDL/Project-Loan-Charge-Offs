@@ -1,7 +1,7 @@
 # Project 4: A study on Loan ChargeOffs
 Project 4 
 
-Group Members: Ryan Lund, Hamid Nazari, Lu Ye, Joseph Gonzalez, Cristian Guerrero, Stephanie Patrica Anshell
+Group Members: Ryan Lund, Hamid Nazari, Lu Ye, Josef Gonzalez, Cristian Guerrero, Stephanie Patrica Anshell
 
 1) Project 4 Overview: 
 The objective of this project is to study the relationship between loan charge offs and several other economic and loan variables that may have predictive power in determining if a loan charge off will occur or not. Four groups of different loan types have been formed and were studied: a) Credit Cards, b) Mortgages, c) Commercial Loans, and d) Commercial Real Estate loans. The dependent variable (or Y) for each group is the loan charge off rate by that particular category. The independent variables will included economic and loan related variables such as the Unemployment Rate, Change in Real GDP, Household Savings Rate, Consumer Confidence Index, the Federal Funds Interest Rate, Household Debt to Income Ratio and loan delinquencies (by the particular loan type). A list of the variables identified by loan file name is below:
