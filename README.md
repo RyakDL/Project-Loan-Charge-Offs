@@ -30,7 +30,7 @@ All four loan groups demonstrated positive correlations between delinquencies an
 
 5) Decision Trees and Random Forest Trees were amongst some of the highest scoring machine learning models tested in Project 4. To begin, our group converted the independent variables in the loan groups to dummy variables and run the Random Forest models. This approach yielded good accuracy results, the however, as an example, the accuracy score for credit cards using dummy variables was 88.75% as compared to credit card Random Forest that used the actual numerical values which reported a 94.9% accuracy score. Consider the following connection between the variables shown in the Tree:
 
-![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/12b3d01e-591b-4b73-9015-7ece0f9515eb)
+![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/28a3c72f-3a84-4728-b1d7-23f8f38e103f)
 
 Along the right branch of the tree, if Household-Debt-to-Income Ratio is above 10.43% and the Fed Funds Rate is above 2.19% and delinquencies are above 4.42% and the unemployment rate is above 4.45% and Consumer Confidence index is above 100.3, then the result is class 4 risk of charge off which signifies the highest quartile of credit card charge off risk. 
 
@@ -38,7 +38,7 @@ This branch describes the relationship between several variables in the model: a
 
 6) Neural Networks and Deep Learning: Deep Learning models were made for all 4 Loan Groups with the same model design. We first modeled transformed dummy data and later got much higher accuracy scores with actual numerical data. For example, the credit cards group reported the following design characteristics: 4 layers of hidden nodes with 60 nodes for the first 3 layers and 40 nodes for the 4th layer; The activation type for the 4 hidden layers was ‘relu’; The activation type for the final layer was ‘softmax’ amd there were 200 epochs for the calculation.
 
-![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/6fd8a254-a171-4941-9396-894afeceb8ae)
+![image](https://github.com/RyakDL/Project-Loan-Charge-Offs/assets/132794157/97232e0d-a341-4481-9ed0-78f9cfc78bbe)
 
 The accuracy scores varied from loan group to loan group. Credit cards had the highest accuracy score at 90.82% while the C&I group had the lowest at 76.53%. Overall, it appears that the Deep learning model did better with Consumer type loans (Credit Cards and Mortgages) versus Commercial type loans (C&I loans and CRE loans). 
 
